@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Remote Access Status</title>
+    <link rel="stylesheet" href="final-project-one.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <section id="navbar">
+        <div>
+          <div>
+            <img id="img-sizelogo" src="https://www.hamiltonfht.ca/en/images/structure/logo.png" alt="HFHT logo" width="286" height="184">
+            <div id="navtext">
+              <div class="floatright">
+                <div style="display:flex; align-items: baseline;">
+                  <p>Contact Us:</p>
+                  <p>itsupport@hamiltonfht.ca</p>
+                  <img class="logo" src="https://w7.pngwing.com/pngs/575/494/png-transparent-email-computer-icons-app-store-email-miscellaneous-blue-angle.png" alt="mail" width="30" height="30">
+                </div>
+                <div style="display:flex; align-self: end;  align-items: baseline;">
+                  <p style="font-weight: normal;">905-667-4848 ext.321</p>
+                  <img class="logo"src="https://w7.pngwing.com/pngs/488/912/png-transparent-green-phone-symbol-green-phone-icon-telephone-symbol.png" alt="phone" width="40" height="30">
+                </div>
+              </div>    
+            </div>
+          </div>
+          <div id="navflex">
+            <button>About</button>
+            <button>Status</button>
+            <button>Summary</button>
+            <button>FAQ</button>           
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about">
+        <div id="about-flex">
+          <div id="about-media">
+            <div id="about-width">
+              <h1>About This Site</h1>
+              <p class="font-text">In this page you will find information about remote access(es) to your practices EMR(s). You can also update the status of new requests and find useful resources about VPNs and EMRs.</p>
+            </div> 
+          </div>
+          <img class="img-size"src="https://securevpn.com/app/articles_img/VPN_protocols.jpeg" alt="lock vpn" width="528" height="396" style="padding-top:1rem;">
+        </div>
+      </section>
+
+      <section id="status">
+        <h1>Remote Access Status</h1>
+        <div id="tableflex">
+          <table style="width:80%; background-color: white;">
+            <tr id="header-row">
+              <th style="background-color:white"></th>
+              <th>Practice</th>
+              <th>VPN</th>
+              <th>EMR</th>
+            </tr>
+            <div>
+              <tr>
+                <td class="blankcell" style="background-color: #88CFC2;";>PS SUITE</td>
+                <td>Awad</td>
+                <td class="centercell">yes</td>
+                <td class="centercell">yes</td>
+              </tr>
+              <tr>
+                <td class="blankcell" ></td>
+                <td>Di Paolo</td>
+                <td class="centercell">yes</td>
+                <td class="centercell">yes</td>
+              </tr>
+              <tr>
+                <td class="blankcell"></td>
+                <td>De Benedetti</td>
+                <td class="centercell">yes</td>
+                <td class="centercell">no</td>
+              </tr>
+              <tr>
+                <td class="blankcell"></td>
+                <td>Core Care</td>
+                <td class="centercell">no</td>
+                <td class="centercell">no</td>
+              </tr>     
+              <tr>
+                <td class="blankcell" style="background-color: #CF88CA;">OSCAR</td>
+                <td>Csordas</td>
+                <td class="centercell">No VPN</td>
+                <td class="centercell">yes</td>
+              </tr>     
+              <tr>
+                <td class="blankcell" style="background-color: #CFBB88;">PnP</td>
+                <td>Allega</td>
+                <td class="centercell">No VPN</td>
+                <td class="centercell">yes</td>
+              </tr> 
+            </div>
+          </table>          
+        </div>
+      </section>
+
+      <section id="summary">
+        <h1>Summary</h1>
+        <div id="sumflex">
+          <div>
+            <img class="img-size" src="data:image/png;base64,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" alt="pie chart" width="737">
+            <h3 class="font-text">General</h3>
+          </div>
+          <div>
+            <img class="img-size" src="https://chartio.com/assets/dfd59f/tutorials/charts/grouped-bar-charts/c1fde6017511bbef7ba9bb245a113c07f8ff32173a7c0d742a4e1eac1930a3c5/grouped-bar-example-1.png" alt="lock vpn" width="728">
+            <h3 class="font-text">In Pogress</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <img id="question-size"src="https://cdn.pixabay.com/photo/2015/12/13/09/40/banner-1090830_960_720.jpg" alt="collage question marks banner" style="object-fit:cover; object-position: bottom; padding-top: 50px;">
+        <div id="color">
+          <h1 style="padding-top: 30px;">FAQ</h1>
+            <div id="warning">
+              <div>
+              <img id="warning-size" src="data:image/png;base64,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" alt="warning sign" width="50">
+              </div>
+              <p class="font-text" style="padding-left: 2rem; width:70%">Be aware that new Remote Access Requests must be approved by your manager prior contacting the IT Department</p>
+            </div>
+            <div >
+              <ul id="questions">
+                <li class="q">How long does a remote access takes to receive?</li>
+                <li class="a">It depends of the EMR type, <a class= "a" href="process.pdf">See more about EMR types.</a></li>
+                <li class="q">Who should provide EMR logins?</li>
+                <li class="a">The practice manages their own EMR accounts.
+                <li class="q">Does HFHT manage all my remote EMR accesses?</li>
+                <li class="a">No, HFHT only manages he HFHT VPN and HFHT tunnel. The rest of the VPNs are managed by the IT provider of each practice.</li>
+                <li class="q">What is VPN?</li>
+                <li class="a"><a class= "a" href="process.pdf">See more about VPN.</a></li>
+                <li class="q">What is EMR?</li>
+                <li class="a"><a class= "a" href="process.pdf">See more about EMRs.</a></li>
+              </ul>
+            </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <section id="footer">
+
+        <h3 id="footer-contact">Contact Us:  itsupport@hamiltonfht.ca</h3>
+        <div id="footer-bottom">
+          <ul id="footer-list">
+            <li>Public Website</li>
+            <li>Portal Website</li>
+            <li>Webmail</li>
+          </ul>
+          <div id="footer-follow">
+            <h4 style="padding-right: 20px;">Follow us</h4>
+            <img class="sizemedia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Instagram" width="50" height="50">
+            <img class="sizemedia" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter" width="50" height="50">
+            <img class="sizemedia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" alt="Youtube" width="50" height="50">
+          </div>
+        </div>
+      </section>
+    </footer>
+
+  </body>
+  
+</html>
